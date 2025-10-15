@@ -1,0 +1,66 @@
+import type { CardDataObject } from "./types";
+
+export const data: CardDataObject[] = [
+    {
+        name: 'Stinky Joe',
+        species: 'Skunk',
+        age: 10.7,
+        activity: 'rollerskating',
+        ugliness: 12,
+        ugly: true,
+    },
+    {
+        name: 'Marvin',
+        species: 'Moose',
+        age: 27,
+        activity: 'synchronized swimming',
+        ugliness: 5,
+        ugly: false,
+    },
+    {
+        name: 'Periwinkle',
+        species: 'Platypus',
+        age: 1,
+        activity: 'unsynchronized swimming',
+        ugliness: 0,
+    },
+    {
+        name: 'Thomas',
+        species: 'Giraffe',
+        age: 13,
+        activity: 'blowing raspberries',
+        ugliness: 6,
+        ugly: false,
+    },
+    {
+        name: 'Sonny',
+        species: 'Buffalo',
+        age: 17,
+        activity: 'arts and crafts',
+        ugliness: 9,
+        ugly: true,
+    },
+    {
+        name: '*Redacted*',
+        species: 'Turkey Vulture',
+        age: 197,
+        activity: 'staring into the void',
+        ugliness: 99,
+        ugly: true,
+    },
+    {
+        name: 'Joey',
+        species: 'Otter',
+        age: 2,
+        activity: 'seafood',
+        ugliness: 2,
+        ugly: false,
+    },
+    {
+        name: 'Vassandra',
+        species: 'Unicorn',
+        age: 27,
+        activity: 'beautiful things',
+        ugliness: 0,
+    },
+]
